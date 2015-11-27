@@ -1,0 +1,209 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Jean-Claude Meier">
+   <meta name="keywords" content="math,pedagogie,statistiques,programmation,calculatrice,TI-82">
+   <meta name="description" content="programmation en math (statistiques) de la calculatrice TI-82">
+   <meta name="GENERATOR" content="Mozilla/4.76 [en] (Win95; U) [Netscape]">
+   <title>Statistiques avec la TI-82</title>
+</head>
+<body text="#000000" bgcolor="#33CCFF" link="#0000FF" vlink="#800080" alink="#FF0080">
+&nbsp;
+<center><table BORDER=0 WIDTH="100%" HEIGHT="1%" BGCOLOR="#3366FF" >
+<caption>&nbsp;</caption>
+
+<tr>
+<td VALIGN=CENTER HEIGHT="1%">
+<center><font color="#FFFFFF"><font size=+3>Tests en PHP</font></font></center>
+</td>
+</tr>
+</table></center>
+
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#CCFFFF" >
+<tr>
+<td>
+<center>
+        <font size=+1>1 er script : F_Quest.php</font> <br>
+<hr WIDTH="100%"></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center><font size=+1>Questionnaire auto-corrig&eacute; &agrave; r&eacute;aliser
+en quelques minutes&nbsp;</font></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<hr WIDTH="100%">
+<br>
+      Il suffit d'ouvrir f_quest.php avec le bloc_notes (ou tout autre &eacute;diteur 
+      en mode texte pur) et d'y entrer, aux emplacements pr&eacute;cis&eacute;s, 
+      quelques lignes : 
+      <ul>
+<li>
+changer le titre qui appara&icirc;t dans les barres de windows</li>
+
+<li>
+changer le titre du haut de la page</li>
+
+<li>
+ajouter les questions et les bonnes r&eacute;ponses correspondantes.</li>
+</ul>
+-----------------------------------------------------------------
+<br>$question[0]="<font color="#FF0000">Quelle est la couleur du cheval
+blanc d'Henri IV ?</font>";
+<br>$question[1]="<font color="#FF0000">Quelle est le jour de repos ?</font>";
+<br>$question[2]="<font color="#FF0000">Quelle est la saison la plus chaude
+?</font>";
+<br>etc.............................
+<p>$bonne_rep[0]="<font color="#FF0000">blanc</font>";
+<br>$bonne_rep[1]="<font color="#FF0000">dimanche</font>";
+<br>$bonne_rep[2]="<font color="#FF0000">&eacute;t&eacute;</font>";
+<br>etc.............................
+<br>----------------------------------------------------------------
+<br>Le nombre de questions est quelconque et ne d&eacute;pend que de votre
+imagination.
+<p>Il faudra bien s&ucirc;r sauvegarder le fichier modifi&eacute;, l'envoyer
+dans votre r&eacute;pertoire, sur votre site, chez votre h&eacute;bergeur
+et l'appeler depuis une de vos pages.
+<p>A la fin du questionnaire, rempli par les visiteurs de votre site, leur
+score sera affich&eacute;.&nbsp;
+<p>C'est absolument tout ce qu'il y a &agrave; faire.
+<p><br><a href="f_quest.php3"></a></td>
+</tr>
+</table>
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#B5FFB5" >
+<tr>
+<td>
+<center>
+        <font size=+1>2&egrave;me script : F_QCM.php</font> <br>
+<hr WIDTH="100%"></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<center><font size=+1>Questionnaire &agrave; Choix Multiples auto-corrig&eacute;
+&agrave; r&eacute;aliser en quelques minutes&nbsp;</font></center>
+</td>
+</tr>
+
+<tr>
+<td>
+<hr WIDTH="100%">
+<br>C'est presque pareil :
+<br>
+      il suffit d'ouvrir f_qcm.php avec le bloc_notes (ou tout autre &eacute;diteur 
+      en mode texte pur) et d'y entrer, aux emplacements pr&eacute;cis&eacute;s, 
+      quelques lignes : 
+      <ul>
+<li>
+changer le titre qui appara&icirc;t dans les barres de windows</li>
+
+<li>
+changer le titre du haut de la page</li>
+
+<li>
+ajouter les questions, les diff&eacute;rents choix possibles&nbsp; et les
+bonnes r&eacute;ponses correspondantes</li>
+</ul>
+les questions, les diff&eacute;rents choix possibles et les bonnes r&eacute;ponses
+correspondantes.
+<br>-----------------------------------------------------------------------------------
+<br>$question[0]="<font color="#FF0000">Quelle est la couleur du cheval
+blanc d'Henri IV ?</font>";
+<br>$choix[0]=array(<font color="#FF0000">"blanc","bleu","rouge","vert"</font>);
+<br>$bonne_rep[0]=$choix[<font color="#FF0000">0</font>][<font color="#FF0000">0</font>];
+<p>$question[1]="<font color="#FF0000">Quelle est le jour de repos ?</font>";
+<br>$choix[1]=array(<font color="#FF0000">"lundi","dimanche","samedi"</font>);
+<br>$bonne_rep[1]=$choix[<font color="#FF0000">1</font>][<font color="#FF0000">1</font>];
+<p>$question[2]="<font color="#FF0000">Quelle est la saison la plus chaude
+?</font>";
+<br>$choix[2]=array(<font color="#FF0000">"hiver","automne","printemps","&eacute;t&eacute;"</font>);
+<br>$bonne_rep[2]=$choix[<font color="#FF0000">2</font>][<font color="#FF0000">3</font>];
+<p>$question[3]="<font color="#FF0000">PHP est un langage interpr&eacute;t&eacute;
+sur le serveur ?</font>";
+<br>$choix[3]=array(<font color="#FF0000">"vrai","faux"</font>);
+<br>$bonne_rep[3]=$choix[<font color="#FF0000">3</font>][<font color="#FF0000">0</font>];
+<p>etc....
+<br>etc...
+<br>etc...
+<br>-----------------------------------------------------------------------------------
+      <p><font color="#FF0000" face="Verdana, Arial, Helvetica, sans-serif" size="3"><b>Nouveau 
+        13/03/04</b></font> 
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Ce script 
+        est maintenant fourni en 2 versions :</font> 
+      <ul>
+        <li><font face="Verdana, Arial, Helvetica, sans-serif" size="2">F_QCM.PHP 
+          : l'ancienne version (r&eacute;ponses courtes ou peu nombreuses) avec 
+          affichage de tous les choix sur une m&ecirc;me ligne</font></li>
+        <li><font face="Verdana, Arial, Helvetica, sans-serif" size="2">F_QCM_RL.PHP 
+          : la nouvelle version (R&eacute;ponses Longues) avec affichage de tous 
+          les choix &agrave; raison d'un par ligne.</font></li>
+      </ul>
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Un petit 
+        bout de JavaScript a &eacute;t&eacute; ajout&eacute;, en d&eacute;but 
+        de page, afin d'emp&ecirc;cher le retour &agrave; la page pr&eacute;c&eacute;dente 
+        (particuli&egrave;rement g&ecirc;nant lorsque les bonnes r&eacute;ponses 
+        ont &eacute;t&eacute; donn&eacute;es !)</font></p>
+      <p>Il faudra bien s&ucirc;r sauvegarder le fichier modifi&eacute;, l'envoyer 
+        dans votre r&eacute;pertoire, sur votre site, chez votre h&eacute;bergeur 
+        et l'appeler depuis une de vos pages. 
+      <p>A la fin du qcm, rempli par les visiteurs de votre site, leur score
+sera affich&eacute;.&nbsp;
+<p><i>Un QCM est souvent pr&eacute;f&eacute;rable &agrave; un questionnaire
+car avec ce dernier il y a souvent ambigu&iuml;t&eacute; et des r&eacute;ponses
+justes mais pas tout &agrave; fait identiques &agrave; celles esp&eacute;r&eacute;es
+ne seront pas accept&eacute;es.</i>
+<br><i>ex: pour la saison la plus chaude si l'utilisateur tape:&nbsp; l'&eacute;t&eacute;
+au lieu de : &eacute;t&eacute; ou encore s'il tape et&eacute; !</i>
+<p>C'est absolument tout ce qu'il y a &agrave; faire.
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Ces scripts 
+        peuvent fonctionner sous <font color="#336633"> PHP4<font color="#000000"> 
+        et prennent en compte les derni&egrave;res versions de PHP ainsi que les 
+        variables globales &agrave; OFF.</font></font></font><font color="#000000"><br>
+        </font> 
+    </td>
+</tr>
+</table>
+
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#FFFFFF" >
+<tr>
+<td><b><u>Bonnes adresses :</u></b>
+<p><a href="http://www.php.net/">http://www.php.net/&nbsp;</a>&nbsp; :
+le site officiel
+<br><a href="http://www.phpdebutant.com/">http://www.phpdebutant.com/</a>&nbsp;&nbsp;
+: un site tr&egrave;s p&eacute;dagogique pour d&eacute;marrer et aller
+plus loin en PHP
+<br><a href="http://phpfacile.free.fr/">http://phpfacile.free.fr/</a>&nbsp;
+: site tr&egrave;s bien r&eacute;alis&eacute; avec plein de cours, exemples,
+applications,...
+<br><a href="http://phpindex.com/">http://phpindex.com/</a> : idem
+<br><a href="http://phpinfo.net/">http://phpinfo.net/</a> : idem
+<br><a href="http://freedani.free.fr">http://freedani.free.fr</a> : qui
+offre un &eacute;diteur gratuit (html+php/asp) en version &szlig; mais
+d&eacute;j&agrave; tr&egrave;s prometteur
+<br><a href="http://phpscripts.free.fr">http://phpscripts.free.fr</a> :
+des tas de scripts dans tous les domaines
+<br>et des tas d'autres, de qualit&eacute; professionnelle, regorgeant
+de ressources...
+<br>&nbsp;</td>
+</tr>
+</table>
+
+<p>
+<center><a href="MailTo:j-c.meier@ac-nancy-metz.fr?subject=Free Contact programmation TI-82">Ecrire
+&agrave; propos de ces programmes</a></center>
+
+<br>&nbsp;
+<p><br>
+<br>
+</body>
+</html>

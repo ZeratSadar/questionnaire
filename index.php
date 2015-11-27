@@ -86,6 +86,42 @@ $choix[10]=array("(a) Simba le lion","(b) Tux le pingouin","(c) Linux le chien",
 $bonne_rep[10]=$choix[10][1];
 $explication[10]="Linux est le nom couramment donné à tout système d'exploitation libre fonctionnant avec le noyau Linux. Le terme est le plus souvent utilisé pour désigner les systèmes d'exploitation basés également sur le système GNU, pour lesquels la Free Software Foundation encourage l'utilisation du nom GNU/Linux, mais est également applicable à d'autres systèmes d'exploitation, tel qu'Android. Les systèmes basés sur Linux sont majoritaires pour les super-ordinateurs et les smartphones. Sur les serveurs informatiques, le marché est partagé avec les autres Unix et Windows. Il est largement utilisé comme système embarqué dans les appareils électroniques : télévision, modem, GPS, etc. L'utilisation sur ordinateur personnel est en revanche de l'ordre du pourcent, bien que ce soit sa plate-forme d'origine. Le système avec toutes ses applications est distribué sous la forme de distributions Linux comme Slackware, Debian ou Red Hat Enterprise Linux.";
 $image[10]="tux.png";
+
+$question[11]="En quoi est Deep Blue ?";
+$choix[11]=array("(a) C'est le superordinateur de la NSA","(b) Il fut le premier ordinateur à battre un champion d'échec","(c) C'est le superordinateur de la NASA","(d) C'est le nom de projet de l'Ipod");
+$bonne_rep[11]=$choix[11][1];
+$explication[11]="Deep Blue est un superordinateur spécialisé dans le jeu d'échecs par adjonction de circuits spécifiques, développé par IBM au début des années 1990. Perdant un match en 1996 (2-4) contre le champion du monde d'échecs de l'époque Garry Kasparov, Deep Blue (surnommé alors Deeper Blue) bat le champion du monde (3,5–2,5) lors du match revanche en 1997, mais hors des conditions exigées lors des championnats du monde.";
+$image[11]="deepblue.jpg";
+
+$question[12]="Quelle est \"l'adresse\" du premier site web";
+$choix[12]=array("(a) abc.def.com","(b) media.ne-xt.ce","(c) youtube.com","(d) info.cern.ch");
+$bonne_rep[12]=$choix[12][3];
+$explication[12]="Le World Wide Web (WWW) a été créé en 1989 par l’ingénieur anglais du CERN Tim Berners-Lee. Le web a été basiquement conçu pour partager automatiquement des informations entre les scientifiques, universités et instituts du monde entier. info.cern.ch fut le premier site web mis en ligne, fonctionnant sur un ordinateur NeXT au CERN. Ce site est toujours accessible sur internet. En 2014 le nombre de sites web dans le monde dépasse le milliard";
+$image[12]="www.jpg";
+
+$question[13]="A quoi correspond le leitmotiv « Un seul web partout et pour tous » ?";
+$choix[13]=array("(a) WWW","(b) Anonymous","(c) W3C","(d) L'ordre des Mousquetaires du web");
+$bonne_rep[13]=$choix[13][2];
+$explication[13]="Le World Wide Web Consortium, abrégé par le sigle W3C, est un organisme de standardisation à but non lucratif, fondé en octobre 1994 chargé de promouvoir la compatibilité des technologies du World Wide Web telles que HTML5, HTML, XHTML, XML, RDF, SPARQL, CSS, XSL, PNG, SVG et SOAP. Fonctionnant comme un consortium international, il regroupe au 26 février 2013, 383 entreprises partenaires.";
+$image[13]="w3c.png";
+
+$question[14]="A quoi correspond le nom « Spartan » ?";
+$choix[14]=array("(a) Le nom d'une I.A développé par Google","(b) A 300 mecs en jupe qui ce sont fait écraser par les perses","(c) A un navigateur web","(d) A un processeur de supercalculateur");
+$bonne_rep[14]=$choix[14][2];
+$explication[14]="Un navigateur web est un logiciel conçu pour consulter et afficher le World Wide Web. Techniquement, c'est au minimum un client HTTP. Il existe de nombreux navigateurs web, pour toutes sortes de matériels (ordinateur personnel, tablette tactile, téléphones mobiles, etc.) et pour; différents systèmes d'exploitation (GNU/Linux, Windows, Mac OS, iOS et Android).";
+$image[14]="spartan.jpg";
+
+$question[15]="De quel année date la première tablette tactile « grand public » ?";
+$choix[15]=array("(a) 1989","(b) 1995","(c) 2005","(d) 2009");
+$bonne_rep[15]=$choix[15][0];
+$explication[15]="La première tablette tactile « grand public » remonte à septembre 1989. La GRiDPad, conçue par Grid Systems Corporation et produite par Samsung, a surtout trouvé preneur dans de larges institutions comme des services de police et l’armée américaine, notamment à cause de son prix, 3 000 dollars avec son logiciel. Tournant sur MS-DOS, elle est dotée d'un écran monochrome de 640 x 400 pixels et d'un stylet. Aujourd'hui, les ventes de tablettes dépassent celles des PC.";
+$image[15]="tablette.jpg";
+
+$question[16]="Qui est Kevin Warwick ?";
+$choix[16]=array("(a) Un cyborg","(b) Le nouveau CEO d'Apple","(c) Un personnage de jeux video","(d) L'alias de Steve Jobs");
+$bonne_rep[16]=$choix[16][0];
+$explication[16]="Kevin Warwick, scientifique et professeur de cybernétique, est devenu récemment le premier cyborg de l’Histoire en se greffant des électrodes qui lui permettent de contrôler un ordinateur à distance. Son pari  ? Que les humains communiquent par télépathie d’ici quelques années.";
+$image[16]="kevin.jpg";
 //----------- fin de la partie à remplir----------------------------------------
 
 $nbquest=sizeof($question);

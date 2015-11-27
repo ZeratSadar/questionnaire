@@ -81,11 +81,11 @@ $bonne_rep[9]=$choix[9][3];
 $explication[9]="Apple Inc., anciennement Apple Computer Inc., est une entreprise multinationale américaine d'informatique, créée le 1er avril 1976 à Cupertino, puis constituée sous forme de société le 3 janvier 1977. De sa création à l'entreprise telle qu'elle existe aujourd’hui, Apple a connu les diverses phases de l'évolution du monde informatique, partant d'un monde sans ordinateur personnel à une société du XXIe siècle interconnectée par l'intermédiaire de terminaux fixes et mobiles. Son histoire est particulièrement liée à celle de l'un de ses cofondateurs, Steve Jobs, forcé à quitter la firme en 1985, puis réembauché en décembre 1996, avant de devenir CEO de la société en 1997. Parmi les produits phares qu'a connus Apple depuis sa création, se trouvent l'Apple I et II, le Macintosh, l'iPod, l'iPhone et l'iPad.";
 $image[9]="apple.png";
 
-$question[10]="Que représente le premier logo d'Apple ?";
-$choix[10]=array("(a) Une pomme croqué au couleur de l'arc-en-ciel","(b) Turing s'étouffant avec une pomme","(c) Le premier ordinateur créé par la société","(d) Issac Newton prêt à ce prendre une pomme sur la tête");
-$bonne_rep[10]=$choix[10][3];
-$explication[10]="Apple Inc., anciennement Apple Computer Inc., est une entreprise multinationale américaine d'informatique, créée le 1er avril 1976 à Cupertino, puis constituée sous forme de société le 3 janvier 1977. De sa création à l'entreprise telle qu'elle existe aujourd’hui, Apple a connu les diverses phases de l'évolution du monde informatique, partant d'un monde sans ordinateur personnel à une société du XXIe siècle interconnectée par l'intermédiaire de terminaux fixes et mobiles. Son histoire est particulièrement liée à celle de l'un de ses cofondateurs, Steve Jobs, forcé à quitter la firme en 1985, puis réembauché en décembre 1996, avant de devenir CEO de la société en 1997. Parmi les produits phares qu'a connus Apple depuis sa création, se trouvent l'Apple I et II, le Macintosh, l'iPod, l'iPhone et l'iPad.";
-$image[10]="apple.png";
+$question[10]="A quel animal est rattaché le noyau GNU/Linux ?";
+$choix[10]=array("(a) Simba le lion","(b) Tux le pingouin","(c) Linux le chien","(d) Grumpy le chat");
+$bonne_rep[10]=$choix[10][1];
+$explication[10]="Linux est le nom couramment donné à tout système d'exploitation libre fonctionnant avec le noyau Linux. Le terme est le plus souvent utilisé pour désigner les systèmes d'exploitation basés également sur le système GNU, pour lesquels la Free Software Foundation encourage l'utilisation du nom GNU/Linux, mais est également applicable à d'autres systèmes d'exploitation, tel qu'Android. Les systèmes basés sur Linux sont majoritaires pour les super-ordinateurs et les smartphones. Sur les serveurs informatiques, le marché est partagé avec les autres Unix et Windows. Il est largement utilisé comme système embarqué dans les appareils électroniques : télévision, modem, GPS, etc. L'utilisation sur ordinateur personnel est en revanche de l'ordre du pourcent, bien que ce soit sa plate-forme d'origine. Le système avec toutes ses applications est distribué sous la forme de distributions Linux comme Slackware, Debian ou Red Hat Enterprise Linux.";
+$image[10]="tux.png";
 //----------- fin de la partie à remplir----------------------------------------
 
 $nbquest=sizeof($question);
